@@ -1,0 +1,6 @@
+regex
+scrapy
+tqdm
+gensim
+pulp
+-e ./newsroom-lib
