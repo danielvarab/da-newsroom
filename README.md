@@ -19,6 +19,16 @@ apt-get install -y glpk-utils.
 # windows isn't tested
 ```
 
+### Data
+We provide dataset freely through "thin files", which are gzip-compressed jsonl files, where each line consists of a sample's URL and measures (but not the summary and article body). The thin files are:
+
+[danewsroom.dev](https://drive.google.com/file/d/1WJ4_kiqu8o10m0rBeDwA85ZIyjoufPyu/view?usp=sharing)
+[danewsroom.thin](https://drive.google.com/file/d/1et6SKCtfs3tWjvZWVQ7x9-4YwwdKRhFb/view?usp=sharing)
+[danewsroom.test.thin](https://drive.google.com/file/d/1kmVPnfycPT4lHbpoB_MlAm6IfaDYetq2/view?usp=sharing)
+
+Reach out to djam@itu.dk if you'd like the dataset directly. We can not for legal reasons distribute dataset directly.
+
+
 ## 2. Build DaNewsroom (Scrape and Extract)
 
 Use newsroom tool to scrape news articles from archive.org/web. This should take about about 5 days due to throttling.
